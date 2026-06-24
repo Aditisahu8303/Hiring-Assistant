@@ -1,0 +1,28 @@
+{
+  "dataset_name": "Resume Screening and Candidate Selection Dataset",
+  "total_records": 50000,
+  "total_features": 23,
+  "target_variable": "selected",
+  "class_distribution": {
+    "Yes": 20000,
+    "No": 30000,
+    "Yes_percentage": 40.0,
+    "No_percentage": 60.0
+  },
+  "train_size": 35000,
+  "validation_size": 7500,
+  "test_size": 7500,
+  "generation_date": "2026-06-10",
+  "dataset_version": "1.0.0",
+  "random_seed": 42,
+  "intended_use_cases": [
+    "Resume Screening Automation",
+    "Candidate Ranking Systems",
+    "Recruitment Analytics",
+    "HR Analytics & Workforce Planning",
+    "Binary Classification",
+    "Explainable AI (XAI)",
+    "Feature Engineering Practice",
+    "Internship & Entry-Level Selection Models"
+  ]
+}
