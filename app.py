@@ -16,7 +16,7 @@ from utils.skill_extractor import extract_skills_from_jd
 
 st.set_page_config(page_title="AI-Hiring Assistant", page_icon="🤖", layout="wide")
 
-DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "resume_screening_dataset.csv")
+DATA_PATH = os.path.join(os.path.dirname(__file__), "resume_screening_dataset.csv")
 SKILL_COLUMNS = ["python_skill","sql_skill","machine_learning_skill",
                  "deep_learning_skill","communication_skill","leadership_skill"]
 SKILL_DISPLAY = {"python_skill":"Python","sql_skill":"SQL","machine_learning_skill":"ML",
