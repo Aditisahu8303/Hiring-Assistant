@@ -2,4 +2,3 @@ data/
 outputs/
 __pycache__/
 *.pyc
-data/job_descriptions.csv
